@@ -1,3 +1,4 @@
+//Programa para entender la estructura de c#
 #include <stdio.h>
 
 int main(int argc, char *argv[]) {
@@ -21,12 +22,12 @@ int main(int argc, char *argv[]) {
 	printf("Escribe la categoria que perteneces: ");
 	scanf("%c",&categoria);
 	fflush(stdin);
-	printf("Escribe tus años de trabajo: ");
+	printf("Escribe tus aÃ±os de trabajo: ");
 	scanf("%d",&as);
 	fflush(stdin);
 	printf("Escribe al departamento que perteneces: ");
 	scanf("%s",&dep);
-	printf("¿Estas casado? ");
+	printf("Â¿Estas casado? ");
 	scanf("%c",&casado);
 	fflush(stdin);
 	
@@ -35,7 +36,7 @@ int main(int argc, char *argv[]) {
 	printf("\nNSS: %d", nss);
 	printf("\nCurp: %s", curp);
 	printf("\nCategoria: %c", categoria);
-	printf("\nAños trabajados: %i", as);
+	printf("\nAÃ±os trabajados: %i", as);
 	printf("\nDepartamento: %s", dep);
 	printf("\nCasado: %c", casado);
 	return 0;
