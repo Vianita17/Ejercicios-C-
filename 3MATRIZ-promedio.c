@@ -1,3 +1,4 @@
+//Programa que captura promedio y imprime estos mismo
 #include <stdio.h>
 #define filas 1
 #define columnas 3
