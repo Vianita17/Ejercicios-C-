@@ -1,3 +1,4 @@
+//Programa para contar vocales
 #include <stdio.h>
 void contador(char texto[30]);
 int main(int argc, char *argv[]) {
